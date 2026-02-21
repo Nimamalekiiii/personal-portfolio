@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Nima Maleki | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Floating Mail Button -->
+  <div class="contact-float" id="openContact">&#9993;</div>
+
+  <!-- Contact Modal -->
+  <div class="contact-modal" id="contactModal">
+    <div class="contact-box">
+      <span class="close-modal" id="closeContact">&times;</span>
+      <h2>Contact Me</h2>
+      <p>Let's discuss your next project</p>
+      <form id="contactForm">
+        <label>Name *</label>
+        <input type="text" placeholder="Your name" required>
+        <label>Phone Number</label>
+        <input type="text" placeholder="+47 123 45 678">
+        <label>Email *</label>
+        <input type="email" placeholder="your@email.com" required>
+        <label>Message *</label>
+        <textarea placeholder="Tell me about your project..." required></textarea>
+        <button type="submit" class="send-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Animated Background -->
+  <canvas id="network"></canvas>
+
+  <!-- Nav Overlay -->
+  <div class="nav-overlay" id="nav-overlay"></div>
+
+  <!-- HEADER -->
+  <header class="main-header">
+    <div class="menu-toggle" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="header-avatar">
+      <img src="assets/images/avatar.jpg" alt="Avatar">
+    </div>
+  </header>
+
+  <!-- SIDE NAVIGATION -->
+  <nav id="nav" class="side-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h1>Nima Maleki</h1>
+    <h3>Full-Stack Developer &amp; Cybersecurity Student</h3>
+    <p>
+      I combine cybersecurity and software development to build secure,
+      scalable and modern solutions.
+    </p>
+
+    <div class="buttons">
+      <a href="https://www.linkedin.com/in/nima-maleki-188ba929a" target="_blank" rel="noopener noreferrer" class="btn linkedin-btn">LinkedIn</a>
+      <a href="https://github.com/Nimamalekiiii" target="_blank" rel="noopener noreferrer" class="btn github-btn">GitHub</a>
+      <a href="https://discord.com/users/710853164894650369" target="_blank" rel="noopener noreferrer" class="btn discord-btn">Discord</a>
+    </div>
+
+    <!-- PROFILE IMAGE -->
+    <div class="home-image">
+      <img src="assets/images/nima.jpg" alt="Nima Maleki">
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Nima Maleki &mdash; 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
