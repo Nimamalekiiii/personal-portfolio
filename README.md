@@ -1,8 +1,8 @@
-# Personal Portfolio 🌐
+# Personal Portfolio 
 
 Personal portfolio website showcasing my skills, projects, education and experience in IT and cybersecurity.
 
-## 📌 About
+##  About
 
 This project is my personal portfolio website, developed from scratch to present my technical background, projects and experience.
 
